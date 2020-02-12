@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from ''
+import HomePage from '../Components/HomePage/HomePage';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
