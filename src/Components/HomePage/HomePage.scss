@@ -8,16 +8,39 @@
 }
 
 #aboutMe {
+  display: block !important;
   height:94vh;
   background-color: #343a40;
   display: flex;
   justify-content: flex-start;
 }
 
+.aboutMeMedia {
+  margin-top: 5em;
+  width: 75%;
+  background-color: transparent !important;
+  border-color: white !important;
+  border-style: solid;
+  -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+}
+
+.card-img {
+  height: 20em;
+  width: 20em;
+}
+
+.card-text {
+  color: white;
+}
+
 .title {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 20px;
-  padding: 5%;
+  padding: 2%;
+  height: 10%;
+  width: 50%;
   color: rgb(19, 228, 228);
 }
 
@@ -27,3 +50,6 @@ span {
   color: yellow;
 }
 
+.facts {
+  color: rgb(19, 228, 228);
+}

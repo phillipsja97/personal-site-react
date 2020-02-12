@@ -5,7 +5,7 @@ import './NavBar.scss';
 class NavBar extends React.Component {
   render() {
     return (
-      <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand href=".homeScreen">Jamie Phillips</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
