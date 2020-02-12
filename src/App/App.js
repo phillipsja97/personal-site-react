@@ -1,11 +1,12 @@
 import React from 'react';
+import HomePage from ''
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <button className='btn btn-danger'>HELP ME</button>
+      <HomePage />
     </div>
   );
 }
