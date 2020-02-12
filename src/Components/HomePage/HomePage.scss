@@ -1,17 +1,29 @@
-.golf {
-  /* The image used */
-  background-image: url(https://cdn.pixabay.com/photo/2020/01/20/20/26/moonlight-4781350_1280.jpg);
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#homeScreen {
+ min-height: 100vh;
+ background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/w8VMvFLUMZS_21211090.jpg);
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
-.home {
-  height:100%;
+#aboutMe {
+  height:94vh;
+  background-color: #343a40;
+  display: flex;
+  justify-content: flex-start;
 }
+
+.title {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  padding: 5%;
+  color: rgb(19, 228, 228);
+}
+
+span {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  color: yellow;
+}
+
