@@ -1,9 +1,12 @@
 import React from 'react';
+import './HomePage.scss';
 
 class HomePage extends React.Component {
   render() {
     return (
-      <h1>Hello</h1>
+      <div>
+        <h1>Hello</h1>
+      </div>
     );
   }
 }
