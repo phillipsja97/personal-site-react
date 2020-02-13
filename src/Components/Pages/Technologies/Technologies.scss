@@ -1,0 +1,35 @@
+.tech {
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/20/18/23/cartography-3244166_1280.png);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.images {
+  display: block !important;
+  justify-content: center;
+  background-color: #343a40;
+}
+
+.card-img-top {
+  height: 10em;
+  width: 10em !important;
+  padding: 1em;
+  margin-top: 5em;
+}
+
+.techArea {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techTitle {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  padding: 2%;
+  height: 10%;
+  color: rgb(19, 228, 228);
+}
