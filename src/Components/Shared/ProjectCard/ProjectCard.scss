@@ -68,12 +68,27 @@
   font-weight: 100;
 }
 
+span2 {
+  color: rgb(235, 100, 235);
+  font-weight: bold;
+}
+
 .webIcon {
+  opacity: 0.5;
   height: 3em;
   width: 3em;
 }
 
+.webIcon:hover {
+  opacity: 1;
+}
+
 .githubIcon {
+  opacity: 0.5;
   height: 3em;
   width: 3em;
+}
+
+.githubIcon:hover {
+  opacity: 1;
 }

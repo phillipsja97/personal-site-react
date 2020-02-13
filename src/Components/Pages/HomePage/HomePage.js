@@ -11,7 +11,7 @@ class HomePage extends React.Component {
       </div>
       <div id="aboutMe">
         <div className="title">
-          <p>jamiephillips<span>~/about-me/</span> (master):</p>
+          <p>jamiephillips<span>~/about-me/</span><span2> (master):</span2></p>
         </div>
         <div className="aboutMeDetails d-flex justify-content-center">
           <div class="card mb-3 aboutMeMedia">

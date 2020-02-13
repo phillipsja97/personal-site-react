@@ -27,7 +27,7 @@ class Projects extends React.Component {
       <div className="projects" id="projects"></div>
         <div className="container-fluid" id="projSection">
           <br></br>
-            <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span> (master):</p>
+            <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span><span2> (master):</span2></p>
             <br></br>
           <div className="projectArea">
            { this.state.projects.map((project) => <ProjectCard key={project.id} project={project} />)};

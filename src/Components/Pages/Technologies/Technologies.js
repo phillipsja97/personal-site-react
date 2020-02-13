@@ -28,7 +28,7 @@ class Technologies extends React.Component {
           <div className="tech">
           </div>
             <div className="images" id="tech">
-              <p className="techTitle"> jamiephillips<span> ~/technologies-I-have-used/</span> (master):</p>
+              <p className="techTitle"> jamiephillips<span> ~/technologies-I-have-used/</span><span2> (master):</span2></p>
               <div className="techArea">
                   { this.state.technologies.map((tech) => <TechnologiesCard key={tech.id} tech={tech} />)};
               </div>

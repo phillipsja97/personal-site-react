@@ -17,3 +17,23 @@
   justify-content: space-evenly;
   margin-top: 5em;
 }
+
+.githubContact {
+  opacity: 0.5;
+  height: 3em;
+  width: 3em;
+}
+
+.githubContact:hover {
+  opacity: 1;
+}
+
+.linkedInContact {
+  opacity: 0.5;
+  height: 3em;
+  width: 3em;
+}
+
+.linkedInContact:hover {
+  opacity: 1;
+}
