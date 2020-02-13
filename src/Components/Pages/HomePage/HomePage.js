@@ -1,5 +1,4 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
