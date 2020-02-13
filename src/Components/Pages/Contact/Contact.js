@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { IconContext } from 'react-icons';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 import './Contact.scss';
 
 class Contact extends React.Component {
@@ -9,6 +10,7 @@ class Contact extends React.Component {
     return (
       <React.Fragment>
       <div className="contact" id="contactMe"></div>
+        <Fade bottom cascade>
         <div className="contactIcons">
           <h1 class="title">jamiephillips <span>/contact-me/</span><span2> (master):</span2></h1>
            <div class="contactContainer">
@@ -25,6 +27,7 @@ class Contact extends React.Component {
                 </IconContext.Provider>
             </div>
         </div>
+        </Fade>
     </React.Fragment>
     );
   }
