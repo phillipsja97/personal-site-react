@@ -18,3 +18,10 @@
   height: 10%;
   color: rgb(19, 228, 228);
 }
+
+.projectArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}

@@ -1,28 +1,37 @@
 import React from 'react';
+import { Card, Image } from 'react-bootstrap';
+import { IconContext } from 'react-icons';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 import './ProjectCard.scss';
 
 class ProjCard extends React.Component {
   render() {
     const { project } = this.props;
     return (
-      <div class="media" id="projCard">
-        <img src={project.screenshot} id="projImage" class="align-self-center mr-3" alt={project.title} />
-          <div class="media-body text-center">
-            <h5 class="mt-0" id="cardTitle">{project.title}</h5>
-              <div class="cardInfo"><p>{project.description}</p></div>
-                <div id="lowerCard" class="d-flex flex-wrap justify-content-center">
-                  <div class="d-flex flex-wrap" id="techIcons">
-                    <p id="techNames">Technologies Used: {project.technologiesUsed}</p>
+      <Card className="bg-dark text-white projectCard">
+        <Card.Img src={project.screenshot} alt="Card Image" className="screenshotOverlay" />
+          <Card.ImgOverlay>
+            <Card.Title className="text-center projTitle">{project.title}</Card.Title>
+            <Card.Text className="text-center projText">
+              {project.description}
+            </Card.Text>
+            <Card.Text className="text-center projTechUsed">
+              {project.technologiesUsed}
+            </Card.Text>
+              <Card.Text className="d-inline-flex icons">
+                <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'githubIcon' }}>
+                  <div>
+                    <a href={project.githubUrl}><FaGithub /></a>
                   </div>
-                </div>
-              </div>
-                <div id="footer">
-                  <div class="d-flex flex-wrap" id="projButtons">
-                    <a id="demoButton" href={project.url} rel="nofollow noopener">Live Demo</a>
-                    <a href={project.githubUrl} id="gitButton">GitHub</a>
+                </IconContext.Provider>
+                <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'webIcon' }}>
+                  <div>
+                    <a href={project.url}><FaGlobe /></a>
                   </div>
-                </div>
-      </div>
+                </IconContext.Provider>
+              </Card.Text>
+          </Card.ImgOverlay>
+      </Card>
     );
   }
 }
