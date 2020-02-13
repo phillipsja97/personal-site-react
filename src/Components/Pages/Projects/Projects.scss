@@ -1,4 +1,4 @@
-.tech {
+#projects {
   background-image: url(https://cdn.pixabay.com/photo/2018/03/20/18/23/cartography-3244166_1280.png);
   height: 100vh;
   background-attachment: fixed;
@@ -7,27 +7,11 @@
   background-size: cover;
 }
 
-.images {
-  display: block !important;
-  justify-content: center;
+#projSection {
   background-color: #343a40;
-  padding-bottom: 8em;
 }
 
-.card-img-top {
-  height: 10em;
-  width: 10em !important;
-  padding: 1em;
-  margin-top: 5em;
-}
-
-.techArea {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.techTitle {
+.projTitle {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 20px;
   padding: 2%;

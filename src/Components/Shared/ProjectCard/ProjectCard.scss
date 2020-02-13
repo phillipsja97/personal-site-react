@@ -1,0 +1,93 @@
+  
+#projCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+}
+
+#projImage {
+  height: 20em;
+  width: 20em;
+}
+
+
+#cardTitle {
+  justify-content: center;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  color: yellow;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.cardInfo {
+  justify-content: center;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  color: white;
+}
+
+#demoButton {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  margin: .5em;
+  border: 4px solid #00A1F1 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+}
+
+#demoButton:hover {
+  color: #ffffff !important;
+  background: #00A1F1;
+  border-color: #ffffff !important;
+  transition: all 0.4s ease 0s;
+}
+
+#gitButton {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  margin: .5em;
+  border: 4px solid #00A1F1 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+}
+
+#gitButton:hover {
+  color: #ffffff !important;
+  background: #00A1F1;
+  border-color: #ffffff !important;
+  transition: all 0.4s ease 0s;
+}
+
+#techNames {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#projButtons {
+  margin: 1em;
+}
+
+#techNames {
+  color: rgb(19, 228, 228);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: 100;
+}
