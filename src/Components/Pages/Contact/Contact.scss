@@ -1,0 +1,19 @@
+#contactMe {
+  min-height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/20/18/23/cartography-3244166_1280.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactIcons {
+  background-color: #343a40;
+  height: 40vh;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5em;
+}
