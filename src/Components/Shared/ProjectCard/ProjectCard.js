@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { IconContext } from 'react-icons';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 import './ProjectCard.scss';
@@ -16,7 +16,7 @@ class ProjCard extends React.Component {
               {project.description}
             </Card.Text>
             <Card.Text className="text-center projTechUsed">
-              {project.technologiesUsed}
+              <span2>Technologies Used: </span2>{project.technologiesUsed}
             </Card.Text>
               <Card.Text className="d-inline-flex icons">
                 <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'githubIcon' }}>

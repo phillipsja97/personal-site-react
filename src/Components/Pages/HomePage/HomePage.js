@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
@@ -9,9 +10,10 @@ class HomePage extends React.Component {
         <div class="fluid-container" id="homeScreen">
         </div>
       </div>
+      <Fade bottom cascade>
       <div id="aboutMe">
         <div className="title">
-          <p>jamiephillips<span>~/about-me/</span> (master):</p>
+          <p>jamiephillips<span>~/about-me/</span><span2> (master):</span2></p>
         </div>
         <div className="aboutMeDetails d-flex justify-content-center">
           <div class="card mb-3 aboutMeMedia">
@@ -29,6 +31,7 @@ class HomePage extends React.Component {
   </div>
 </div>
         </div>
+        </Fade>
       </div>
     );
   }
