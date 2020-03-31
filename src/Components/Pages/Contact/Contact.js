@@ -8,7 +8,7 @@ import './Contact.scss';
 class Contact extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment className="fluid-container">
       <div className="contact" id="contactMe"></div>
         <Fade bottom cascade>
         <div className="contactIcons">
@@ -19,7 +19,7 @@ class Contact extends React.Component {
                     <a href='https://github.com/phillipsja97'><FaGithub /></a>
                   </div>
                 </IconContext.Provider>
-                <Button variant="outline-light">Contact Me</Button>
+                <Button variant="outline-light" href="mailto:phillipsja97@gmail.com?subject=Hi!">Say Hello</Button>
                 <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'linkedInContact' }}>
                   <div>
                     <a href='https://www.linkedin.com/in/jamieaphillips/'><FaLinkedin /></a>

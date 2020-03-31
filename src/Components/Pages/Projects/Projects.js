@@ -24,7 +24,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment className="fluid-container">
       <div className="projects" id="projects"></div>
         <Fade bottom cascade>
         <div className="container-fluid" id="projSection">

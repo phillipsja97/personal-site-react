@@ -24,7 +24,7 @@ class Technologies extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment className="fluid-container">
         <div className="technologies">
           <div className="tech">
           </div>
