@@ -7,7 +7,7 @@ class HomePage extends React.Component {
     return (
     <div className="HomePage">
       <div className="fluid-container">
-        <div class="fluid-container" id="homeScreen">
+        <div id="homeScreen">
         </div>
       </div>
       <Fade bottom cascade>
@@ -18,17 +18,38 @@ class HomePage extends React.Component {
         <div className="aboutMeDetails d-flex justify-content-center">
           <div class="card mb-3 aboutMeMedia">
             <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t35.0-12/1062409_10200121663220053_1403659769_o.jpg?_nc_cat=108&_nc_ohc=udp0_yAquBMAX_567kp&_nc_ht=scontent-dfw5-2.xx&oh=42a68f656f3eb2d5570724f310c0a05c&oe=5E46F694" class="card-img" alt="profilePic"/>
+              <div class="col-md-3">
+                <img src="http://share-fastly.picmonkey.com/prod/photo_posts/7YekgmznLzr_21258830.jpg" class="card-img" alt="profilePic"/>
               </div>
     <div class="col-md-8">
         <div class="card-body">
-          <p class="card-text text-center">My journey into software development started out with a simple question to a colleague about our company website, but it was one that would lead me down the rabbit hole of learning everything I could about coding. Over the next year and a half, I worked on some courses on free online learning programs, learned about different career options and coding languages, and finally started researching formal training schools and options. Enter, Nashville Software School. I love the puzzle that is software development. It frustrates you. It challenges you. It pushes you the whole time but once you finish a project or a problem, the reward is so satisfying.</p>
-          <h6 className="facts text-center">Some Things I love:</h6>
+          <p class="card-text text-center">In my career, I was always a problem solver who was looking for more challenges. I enjoy the challenge of taking a problem and breaking it down until you find the road map to the solution. This is why I was always intrigued with software development and why I was hooked the moment I started learning about it. The software development industry is ever-changing and I look forward to growing with my skills to grow with it.</p>
+          <div className="facts">
+            <h6 className="factsTitle text-center">Some Things I love:</h6>
+              <div className="list d-inline-flex">
+                <li>Sports</li>
+                <li>Traveling</li>
+                <li>Craft Beer</li>
+                <li>Cooking/BBQ</li>
+              </div>
+          </div>
+
         </div>
       </div>
     </div>
+        <div class="quote card">
+          <div class="quoteHeader card-header">
+            Favorite Software Quote
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</p>
+              <footer class="blockquote-footer">Martin Golding</footer>
+            </blockquote>
+          </div>
+      </div>
   </div>
+  <br/>
 </div>
         </div>
         </Fade>

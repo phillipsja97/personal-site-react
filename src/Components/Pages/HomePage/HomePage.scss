@@ -2,21 +2,26 @@
  min-height: 100vh;
  background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/4taXnGEP6Xt_21211557.jpg);
  background-attachment: fixed;
- background-position: center;
+//  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
 }
 
 #aboutMe {
   display: block !important;
-  height:94vh;
+  height: 100vh;
   background-color: #343a40;
   display: flex;
   justify-content: flex-start;
 }
 
+.list {
+  display: inline-flex;
+  justify-content: center !important;
+}
+
 .aboutMeMedia {
-  margin-top: 5em;
+  margin-top: 3em;
   width: 75%;
   background-color: transparent !important;
   border-color: white !important;
@@ -28,7 +33,6 @@
 
 .card-img {
   height: 20em;
-  width: 20em;
 }
 
 .card-text {
@@ -44,6 +48,10 @@
   color: rgb(19, 228, 228);
 }
 
+li {
+  padding: 2.5em;
+}
+
 span {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 20px;
@@ -53,3 +61,23 @@ span {
 .facts {
   color: rgb(19, 228, 228);
 }
+
+.quote {
+  background-color: transparent !important;
+  border-color: white !important;
+  border-style: solid;
+  -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  .quoteHeader {
+    color: rgb(235, 100, 235);
+    display: flex;
+    justify-content: center;
+  }
+  .blockquote {
+    color: white;
+  }
+}
+
+
+
