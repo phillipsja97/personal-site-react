@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
@@ -15,6 +16,7 @@ class HomePage extends React.Component {
         <div className="title">
           <p>jamiephillips<span>~/about-me/</span><span2> (master):</span2></p>
         </div>
+        <div className="borderTrans">
         <div className="aboutMeDetails d-flex justify-content-center">
           <div class="card mb-3 aboutMeMedia">
             <div class="row no-gutters">
@@ -47,6 +49,7 @@ class HomePage extends React.Component {
               <footer class="blockquote-footer">Martin Golding</footer>
             </blockquote>
           </div>
+      </div>
       </div>
   </div>
   <br/>

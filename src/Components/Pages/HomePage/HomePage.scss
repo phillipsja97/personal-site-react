@@ -9,10 +9,10 @@
 
 #aboutMe {
   display: block !important;
-  height: 100vh;
+  height: 100%;
   background-color: #343a40;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center !important;
 }
 
 .list {
@@ -22,13 +22,14 @@
 
 .aboutMeMedia {
   margin-top: 3em;
-  width: 75%;
+  width: 75% !important;
   background-color: transparent !important;
-  border-color: white !important;
-  border-style: solid;
-  -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  border: none !important;
+  // border-color: white !important;
+  // border-style: solid;
+  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
 }
 
 .card-img {
@@ -64,15 +65,18 @@ span {
 
 .quote {
   background-color: transparent !important;
-  border-color: white !important;
-  border-style: solid;
-  -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  border: none !important;
+  margin-top: 1em;
+  // border-color: white !important;
+  // border-style: solid;
+  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
   .quoteHeader {
     color: rgb(235, 100, 235);
     display: flex;
     justify-content: center;
+    border: none !important;
   }
   .blockquote {
     color: white;
