@@ -4,6 +4,7 @@ import NavBar from '../Components/Shared/NavBar/NavBar';
 import Technologies from '../Components/Pages/Technologies/Technologies';
 import Projects from '../Components/Pages/Projects/Projects';
 import Contact from '../Components/Pages/Contact/Contact';
+import LoadScreen from '../Components/Pages/LoadScreen/LoadScreen';
 import Footer from '../Components/Shared/Footer/Footer';
 import firebaseConnection from '../Helpers/data/connectionData';
 import './App.scss';
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <LoadScreen />
       <HomePage />
       <Technologies />
       <Projects />

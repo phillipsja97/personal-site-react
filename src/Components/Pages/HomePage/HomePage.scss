@@ -1,12 +1,3 @@
-#homeScreen {
- min-height: 100vh;
- background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/4taXnGEP6Xt_21211557.jpg);
- background-attachment: fixed;
-//  background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-
 #aboutMe {
   display: block !important;
   height: 100%;
@@ -24,7 +15,7 @@
   margin-top: 3em;
   width: 75% !important;
   background-color: transparent !important;
-  border: none !important;
+  border-style: none !important;
   // border-color: white !important;
   // border-style: solid;
   // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
