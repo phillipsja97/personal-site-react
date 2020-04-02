@@ -1,5 +1,7 @@
+/* eslint-disable max-len */
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
@@ -7,8 +9,6 @@ class HomePage extends React.Component {
     return (
     <div className="HomePage">
       <div className="fluid-container">
-        <div id="homeScreen">
-        </div>
       </div>
       <Fade bottom cascade>
       <div id="aboutMe">
@@ -16,7 +16,7 @@ class HomePage extends React.Component {
           <p>jamiephillips<span>~/about-me/</span><span2> (master):</span2></p>
         </div>
         <div className="aboutMeDetails d-flex justify-content-center">
-          <div class="card mb-3 aboutMeMedia">
+          <div class="card mb-3 aboutMeMedia" id="resize">
             <div class="row no-gutters">
               <div class="col-md-3">
                 <img src="http://share-fastly.picmonkey.com/prod/photo_posts/7YekgmznLzr_21258830.jpg" class="card-img" alt="profilePic"/>
@@ -47,11 +47,11 @@ class HomePage extends React.Component {
               <footer class="blockquote-footer">Martin Golding</footer>
             </blockquote>
           </div>
-      </div>
   </div>
+      </div>
+      </div>
   <br/>
-</div>
-        </div>
+          </div>
         </Fade>
       </div>
     );

@@ -11,7 +11,9 @@ class ProjCard extends React.Component {
       <Card className="bg-dark text-white projectCard">
         <Card.Img src={project.screenshot} alt="Card Image" className="screenshotOverlay" />
           <Card.ImgOverlay>
-            <Card.Title className="text-center projTitle">{project.title}</Card.Title>
+           { (project.title.includes('Capstone')) ? (<Card.Title className="text-center projTitle"><span3>{project.title}</span3></Card.Title>)
+             : (<Card.Title className="text-center projTitle">{project.title}</Card.Title>)
+           }
             <Card.Text className="text-center projText">
               {project.description}
             </Card.Text>
