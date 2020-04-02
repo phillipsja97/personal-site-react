@@ -23,7 +23,7 @@ class HomePage extends React.Component {
               </div>
     <div class="col-md-8">
         <div class="card-body">
-          <p class="card-text text-center">In my career, I was always a problem solver who was looking for more challenges. I enjoy the challenge of taking a problem and breaking it down until you find the road map to the solution. This is why I was always intrigued with software development and why I was hooked the moment I started learning about it. The software development industry is ever-changing and I look forward to growing with my skills to grow with it.</p>
+          <p class="card-text text-center">In my career, I was always a problem solver who was looking for more challenges. I enjoy the challenge of taking a problem and breaking it down until you find the road map to the solution. This is why I was always intrigued with software development and why I was hooked the moment I started learning about it. The software development industry is ever-changing and I look forward to growing my skills to grow with it.</p>
           <div className="facts">
             <h6 className="factsTitle text-center">Some Things I love:</h6>
               <div className="list d-inline-flex">
