@@ -12,7 +12,7 @@ class LoadScreen extends React.Component {
       <MediaQuery minDeviceWidth={768} maxDeviceWidth={1024}>
       <div className="tabletLayout"></div>
       </MediaQuery>
-      <MediaQuery maxDeviceWidth={767}>
+      <MediaQuery minDeviceWidth={320} maxDeviceWidth={767}>
       <div className="phoneLayout"></div>
       </MediaQuery>
       </div>
