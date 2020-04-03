@@ -1,6 +1,27 @@
-#homeScreen {
+.desktopLayout {
   min-height: 100vh;
   background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/4taXnGEP6Xt_21211557.jpg);
+  background-attachment: fixed;
+ //  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .tabletLayout {
+  min-height: 100vh;
+  background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/4taXnGEP6Xt_21211557.jpg);
+  background-size: 768px auto;
+  background-attachment: fixed;
+ //  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .phoneLayout {
+  min-height: 100vh;
+  background-image: url(http://share-fastly.picmonkey.com/prod/photo_posts/4taXnGEP6Xt_21211557.jpg);
+  width: 100vw;
   background-attachment: fixed;
  //  background-position: center;
   background-repeat: no-repeat;
