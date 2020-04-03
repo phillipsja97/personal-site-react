@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
+import LoadScreen from '../LoadScreen/LoadScreen';
 import './HomePage.scss';
 
 class HomePage extends React.Component {
@@ -9,6 +10,9 @@ class HomePage extends React.Component {
     return (
     <div className="HomePage">
       <div className="fluid-container">
+      <MediaQuery minDeviceWidth={1224}>
+        <LoadScreen />
+      </MediaQuery>
       </div>
       <Fade bottom cascade>
       <div id="aboutMe">

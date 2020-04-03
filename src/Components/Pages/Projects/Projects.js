@@ -1,6 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import Fade from 'react-reveal/Fade';
+import Background from '../Background/Background';
 import projectData from '../../../Helpers/data/projectData';
 import ProjectCard from '../../Shared/ProjectCard/ProjectCard';
 import './Projects.scss';
@@ -25,7 +27,8 @@ class Projects extends React.Component {
   render() {
     return (
       <React.Fragment className="fluid-container">
-      <div className="projects" id="projects"></div>
+       <MediaQuery minDeviceWidth={1224}>
+          <Background />
         <Fade bottom cascade>
         <div className="container-fluid" id="projSection">
           <br></br>
@@ -37,6 +40,7 @@ class Projects extends React.Component {
           <br></br><br></br>
         </div>
         </Fade>
+        </MediaQuery>
       </React.Fragment>
     );
   }
