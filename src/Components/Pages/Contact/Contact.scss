@@ -9,11 +9,11 @@
 
 .contactIcons {
   background-color: #343a40;
-  height: 40vh;
+  height: 100vh;
 }
 
 .contactContainer {
-  display: flex;
+  display: flex !important;
   justify-content: space-evenly;
   margin-top: 5em;
 }

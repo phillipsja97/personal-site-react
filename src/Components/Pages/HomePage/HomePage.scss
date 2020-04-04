@@ -1,78 +1,26 @@
-#aboutMe {
-  display: block !important;
-  height: 100%;
-  background-color: #343a40;
-  display: flex;
-  justify-content: center !important;
-}
+.desktopBackground {
+  min-height: 100vh;
+  background-image: url(https://github.com/phillipsja97/personal-site-react/blob/master/src/Assets/blackWorldLines.jpg?raw=true);
+  background-attachment: fixed;
+ //  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
-.list {
-  display: inline-flex;
-  justify-content: center !important;
-}
+ .tabletBackground {
+  min-height: 100vh;
+  background-image: url(https://github.com/phillipsja97/personal-site-react/blob/master/src/Assets/blackWorldLines.jpg?raw=true);
+  background-attachment: fixed;
+ //  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
 
-.aboutMeMedia {
-  margin-top: 3em;
-  width: 75% !important;
-  background-color: transparent !important;
-  border-style: none !important;
-  // border-color: white !important;
-  // border-style: solid;
-  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-}
-
-.card-img {
-  height: 20em;
-}
-
-.card-text {
-  color: white;
-}
-
-.title {
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 20px;
-  padding: 2%;
-  height: 10%;
-  width: 50%;
-  color: rgb(19, 228, 228);
-}
-
-li {
-  padding: 2.5em;
-}
-
-span {
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 20px;
-  color: #ffff00;
-}
-
-.facts {
-  color: rgb(19, 228, 228);
-}
-
-.quote {
-  background-color: transparent !important;
-  border: none !important;
-  margin-top: 1em;
-  // border-color: white !important;
-  // border-style: solid;
-  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
-  .quoteHeader {
-    color: rgb(235, 100, 235);
-    display: flex;
-    justify-content: center;
-    border: none !important;
-  }
-  .blockquote {
-    color: white;
-  }
-}
-
-
-
+ .phoneBackground {
+  min-height: 100vh;
+  background-image: url(https://github.com/phillipsja97/personal-site-react/blob/master/src/Assets/blackWorldLines.jpg?raw=true);
+  background-attachment: fixed;
+ //  background-position: center;
+  background-repeat: no-repeat;
+ }
