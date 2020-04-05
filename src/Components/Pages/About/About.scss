@@ -1,3 +1,5 @@
+// About Me Desktop Section
+
 #aboutMe {
   display: block !important;
   height: 100vh;
@@ -54,6 +56,10 @@ span {
   color: rgb(19, 228, 228);
 }
 
+.factsTitle {
+  padding-top: 1em;
+}
+
 .quote {
   background-color: transparent !important;
   border: none !important;
@@ -72,6 +78,42 @@ span {
   .blockquote {
     color: white;
   }
+}
+
+// About Me Tablet Section
+
+.titleTablet {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  padding: 2%;
+  color: rgb(19, 228, 228);
+}
+
+.spanTablet {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  color: #ffff00;
+}
+
+.card-imgTab {
+  height: 16em !important;
+}
+
+.card-bodyTab {
+  padding-top: 0px !important;
+}
+
+#card-textTab {
+  margin-left: 20px;
+}
+
+#card-bodyTab {
+  padding-left: 3rem;
+  padding-top: 0 !important;
+}
+
+.tablet {
+  padding: 1em;
 }
 
 

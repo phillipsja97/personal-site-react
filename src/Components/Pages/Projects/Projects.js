@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import Fade from 'react-reveal';
+import Zoom from 'react-reveal/Zoom';
 import Background from '../HomePage/HomePage';
 import projectData from '../../../Helpers/data/projectData';
 import ProjectCard from '../../Shared/ProjectCard/ProjectCard';
@@ -18,13 +18,13 @@ class Projects extends React.Component {
       <React.Fragment className="fluid-container">
         <div className="container-fluid" id="projSection">
             <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span><span2> (master):</span2></p>
-          <Fade bottom cascade>
+          <Zoom cascade>
           <div className="projectArea">
           <div className="projContainer">
            { projects.map((project) => <ProjectCard key={project.id} project={project} />)};
            </div>
           </div>
-         </Fade>
+         </Zoom>
         </div>
       </React.Fragment>
     );

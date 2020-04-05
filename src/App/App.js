@@ -1,10 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
-import MediaQuery from 'react-responsive';
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
   Switch,
 } from 'react-router-dom';
 import HomePage from '../Components/Pages/HomePage/HomePage';
@@ -55,19 +53,8 @@ class App extends React.Component {
   }
 
   render() {
-    const { projects } = this.state;
-    const { technologies } = this.state;
     return (
     <div className="App">
-      {/* <MediaQuery minDeviceWidth={1224}>
-        <NavBar />
-        <HomePage />
-        <Technologies />
-        <Projects />
-        <Contact />
-        <Footer />
-      </MediaQuery> */}
-        <MediaQuery minDeviceWidth={1224}>
         <Router>
               <NavBar />
                 <Switch>
@@ -76,34 +63,9 @@ class App extends React.Component {
                   <Route path="/technologies" render={(props) => (<Technologies {...props} technologies={this.state.technologies}/>)}/>
                   <Route path="/projects" render={(props) => (<Projects {...props} projects={this.state.projects}/>)}/>
                   <Route path="/contact" exact component={Contact} />
-              <Footer />
                 </Switch>
+              <Footer />
         </Router>
-      </MediaQuery>
-      {/* <MediaQuery minDeviceWidth={768} maxDeviceWidth={1024}>
-          <Router>
-              <NavBar />
-                <Switch>
-                  <PublicRoute path="/" exact component={HomePage} />
-                  <PublicRoute path="/technologies" exact component={Technologies} />
-                  <PublicRoute path="/projects" exact component={Projects} />
-                  <PublicRoute path="/contact" exact component={Contact} />
-              <Footer />
-                </Switch>
-          </Router>
-      </MediaQuery>
-      <MediaQuery minDeviceWidth={320} maxDeviceWidth={767}>
-      <Router>
-              <NavBar />
-                <Switch>
-                  <PublicRoute path="/" exact component={HomePage} />
-                  <PublicRoute path="/technologies" exact component={Technologies} />
-                  <PublicRoute path="/projects" exact component={Projects} />
-                  <PublicRoute path="/contact" exact component={Contact} />
-              <Footer />
-                </Switch>
-          </Router>
-      </MediaQuery> */}
     </div>
     );
   }
