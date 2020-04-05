@@ -10,7 +10,13 @@
 
 .list {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center !important;
+  width: 100%;
+}
+
+.facts {
+  width: 100%;
 }
 
 .aboutMeMedia {
@@ -43,7 +49,7 @@
 }
 
 li {
-  padding: 2.5em;
+  padding: .5em;
 }
 
 span {

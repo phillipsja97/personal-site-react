@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import './About.scss';
