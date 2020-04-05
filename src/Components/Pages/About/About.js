@@ -2,7 +2,8 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import Zoom from 'react-reveal/Zoom';
-import AboutTablet from '../About/AboutTablet';
+import AboutTablet from './AboutTablet';
+import AboutMobile from './AboutMobile';
 import './About.scss';
 
 class HomePage extends React.Component {
@@ -59,6 +60,9 @@ class HomePage extends React.Component {
           </MediaQuery>
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1023}>
               <AboutTablet />
+          </MediaQuery>
+          <MediaQuery minDeviceWidth={320} maxDeviceWidth={767} >
+              <AboutMobile />
           </MediaQuery>
      </React.Fragment>
     );

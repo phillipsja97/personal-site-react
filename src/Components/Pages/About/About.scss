@@ -116,5 +116,46 @@ span {
   padding: 1em;
 }
 
+// About Me Mobile Section
+
+#aboutMeMobile {
+  height: 100%;
+}
+
+.titleMobile {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  padding: 2%;
+  color: rgb(19, 228, 228);
+}
+
+.spanMobile {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: #ffff00;
+}
+
+#picMobile {
+  // margin-left: 2.5em;
+  display: flex;
+  justify-content: center !important;
+}
+
+#card-textMob {
+  justify-content: center !important;
+}
+
+.mobile {
+  padding: 1em !important;
+}
+
+.factsMob {
+  color: rgb(19, 228, 228);
+}
+
+.listMob {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
 
 
