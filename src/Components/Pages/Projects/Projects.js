@@ -1,6 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import MediaQuery from 'react-responsive';
+import Zoom from 'react-reveal/Zoom';
+import Background from '../HomePage/HomePage';
 import projectData from '../../../Helpers/data/projectData';
 import ProjectCard from '../../Shared/ProjectCard/ProjectCard';
 import './Projects.scss';
@@ -10,33 +12,20 @@ class Projects extends React.Component {
     projects: [],
   }
 
-  getProjects = () => {
-    projectData.getProjects()
-      .then((projects) => {
-        this.setState({ projects });
-      })
-      .catch((errorFromProj) => console.error(errorFromProj));
-  }
-
-  componentDidMount() {
-    this.getProjects();
-  }
-
   render() {
+    const { projects } = this.props;
     return (
       <React.Fragment className="fluid-container">
-      <div className="projects" id="projects"></div>
-        <Fade bottom cascade>
         <div className="container-fluid" id="projSection">
-          <br></br>
             <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span><span2> (master):</span2></p>
-            <br></br>
+          <Zoom cascade>
           <div className="projectArea">
-           { this.state.projects.map((project) => <ProjectCard key={project.id} project={project} />)};
+          <div className="projContainer">
+           { projects.map((project) => <ProjectCard key={project.id} project={project} />)};
+           </div>
           </div>
-          <br></br><br></br>
+         </Zoom>
         </div>
-        </Fade>
       </React.Fragment>
     );
   }

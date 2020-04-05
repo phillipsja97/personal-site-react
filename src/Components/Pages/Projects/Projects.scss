@@ -9,7 +9,6 @@
 
 #projSection {
   background-color: #343a40;
-  
 }
 
 .projTitle {
@@ -20,7 +19,18 @@
   color: rgb(19, 228, 228);
 }
 
+.fluid-container {
+  background-color: #343a40;
+}
+
 .projectArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.projContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

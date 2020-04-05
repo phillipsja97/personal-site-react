@@ -1,6 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import MediaQuery from 'react-responsive';
+import Zoom from 'react-reveal/Zoom';
+import Background from '../HomePage/HomePage';
 import TechnologiesCard from '../../Shared/TechnologiesCard/TechnologiesCard';
 import techData from '../../../Helpers/data/techData';
 import './Technologies.scss';
@@ -10,32 +12,21 @@ class Technologies extends React.Component {
     technologies: [],
   }
 
-  getTechnologies = () => {
-    techData.getTech()
-      .then((technologies) => {
-        this.setState({ technologies });
-      })
-      .catch((errorFromTech) => console.error(errorFromTech));
-  }
-
-  componentDidMount() {
-    this.getTechnologies();
-  }
-
   render() {
+    const { technologies } = this.props;
     return (
       <React.Fragment className="fluid-container">
         <div className="technologies">
-          <div className="tech">
-          </div>
-          <Fade bottom cascade>
-            <div className="images" id="tech">
-              <p className="techTitle"> jamiephillips<span> ~/technologies-I-have-used/</span><span2> (master):</span2></p>
-              <div className="techArea">
-                  { this.state.technologies.map((tech) => <TechnologiesCard key={tech.id} tech={tech} />)};
-              </div>
-            </div>
-          </Fade>
+                <div className="images" id="tech">
+                  <p className="techTitle"> jamiephillips<span> ~/technologies-I-have-used/</span><span2> (master):</span2></p>
+                  <Zoom cascade>
+                      <div className="empty">
+                        <div className="techArea">
+                            { technologies.map((tech) => <TechnologiesCard key={tech.id} tech={tech} />)};
+                        </div>
+                      </div>
+                    </Zoom>
+                </div>
         </div>
       </React.Fragment>
     );

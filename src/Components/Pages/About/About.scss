@@ -1,0 +1,161 @@
+// About Me Desktop Section
+
+#aboutMe {
+  display: block !important;
+  height: 100vh;
+  background-color: #343a40;
+  display: flex;
+  justify-content: center !important;
+}
+
+.list {
+  display: inline-flex;
+  justify-content: center !important;
+}
+
+.aboutMeMedia {
+  margin-top: 3em;
+  width: 75% !important;
+  background-color: transparent !important;
+  border-style: none !important;
+  // border-color: white !important;
+  // border-style: solid;
+  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+}
+
+.card-img {
+  height: 20em;
+}
+
+.card-text {
+  color: white;
+}
+
+.title {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  padding: 2%;
+  // height: 10%;
+  // width: 50%;
+  color: rgb(19, 228, 228);
+}
+
+li {
+  padding: 2.5em;
+}
+
+span {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  color: #ffff00;
+}
+
+.facts {
+  color: rgb(19, 228, 228);
+}
+
+.factsTitle {
+  padding-top: 1em;
+}
+
+.quote {
+  background-color: transparent !important;
+  border: none !important;
+  margin-top: 1em;
+  // border-color: white !important;
+  // border-style: solid;
+  // -webkit-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // -moz-box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  // box-shadow: 10px 10px 17px -7px rgba(19,228,228,0.22);
+  .quoteHeader {
+    color: rgb(235, 100, 235);
+    display: flex;
+    justify-content: center;
+    border: none !important;
+  }
+  .blockquote {
+    color: white;
+  }
+}
+
+// About Me Tablet Section
+
+.titleTablet {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  padding: 2%;
+  color: rgb(19, 228, 228);
+}
+
+.spanTablet {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  color: #ffff00;
+}
+
+.card-imgTab {
+  height: 16em !important;
+}
+
+.card-bodyTab {
+  padding-top: 0px !important;
+}
+
+#card-textTab {
+  margin-left: 20px;
+}
+
+#card-bodyTab {
+  padding-left: 3rem;
+  padding-top: 0 !important;
+}
+
+.tablet {
+  padding: 1em;
+}
+
+// About Me Mobile Section
+
+#aboutMeMobile {
+  height: 100%;
+}
+
+.titleMobile {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  padding: 2%;
+  color: rgb(19, 228, 228);
+}
+
+.spanMobile {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: #ffff00;
+}
+
+#picMobile {
+  // margin-left: 2.5em;
+  display: flex;
+  justify-content: center !important;
+}
+
+#card-textMob {
+  justify-content: center !important;
+}
+
+.mobile {
+  padding: 1em !important;
+}
+
+.factsMob {
+  color: rgb(19, 228, 228);
+}
+
+.listMob {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+
