@@ -22,8 +22,8 @@ class Technologies extends React.Component {
                   }}>
                     {(matches) => (
                       <Fragment>
-                        {matches.small && <p className="techTitleMob"> jamiephillips<span className="spanMobile"> ~/technologies-I-have-used/</span><span2> (master):</span2></p>}
-                        {matches.medium && <p className="techTitleTab"> jamiephillips<span className="spanTablet"> ~/technologies-I-have-used/</span><span2> (master):</span2></p>}
+                        {matches.small && <p className="techTitleMob"> jamiephillips<span className="spanMobile"> ~/technologies-I-have-used/</span><span2 className="span2Mobile"> (master):</span2></p>}
+                        {matches.medium && <p className="techTitleTab"> jamiephillips<span className="spanTablet"> ~/technologies-I-have-used/</span><span2 className="span2Tablet"> (master):</span2></p>}
                         {matches.large && <p className="techTitle"> jamiephillips<span className="spanDesk"> ~/technologies-I-have-used/</span><span2> (master):</span2></p>}
                       </Fragment>
                     )}

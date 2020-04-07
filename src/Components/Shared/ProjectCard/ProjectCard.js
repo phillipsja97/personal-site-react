@@ -41,7 +41,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const ReviewCard = (props) => {
+const ProjCard = (props) => {
   const styles = useStyles();
   const mediaStyles = useWideCardMediaStyles();
   const shadowStyles = useFadedShadowStyles();
@@ -80,10 +80,10 @@ const ReviewCard = (props) => {
             className={gutterStyles.parent}
           >
             <IconButton aria-label="github" onClick={() => window.open(props.project.githubUrl)}>
-              <GitHubIcon fontSize="large" style={ { fill: 'rgb(19, 228, 228)' } }/>
+              <GitHubIcon fontSize="large" style={ { fill: 'white' } }/>
             </IconButton>
            <IconButton aria-label="hostedUrl" onClick={() => window.open(props.project.url)}>
-              <LanguageIcon fontSize="large" style={ { fill: 'rgb(19, 228, 228)' } }/>
+              <LanguageIcon fontSize="large" style={ { fill: 'white' } }/>
            </IconButton>
           </Box>
         </Box>
@@ -93,7 +93,7 @@ const ReviewCard = (props) => {
 };
 
 
-export default ReviewCard;
+export default ProjCard;
 
 
 // import React from 'react';
