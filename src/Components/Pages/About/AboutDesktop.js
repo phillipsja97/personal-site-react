@@ -12,7 +12,7 @@ class HomePage extends React.Component {
       </div>
       <div id="aboutMe">
         <div className="title">
-          <p>jamiephillips<span>~/about-me/</span><span2> (master):</span2></p>
+          <p>jamiephillips<span className="spanDesk">~/about-me/</span><span2> (master):</span2></p>
         </div>
       <Zoom cascade>
         <div className="aboutMeDetails d-flex justify-content-center">

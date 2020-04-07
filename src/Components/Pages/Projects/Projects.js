@@ -17,7 +17,7 @@ class Projects extends React.Component {
     return (
       <React.Fragment className="fluid-container">
         <div className="container-fluid" id="projSection">
-            <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span><span2> (master):</span2></p>
+            <p className="projTitle"> jamiephillips<span className="spanDesk"> ~/projects-I-built/</span><span2> (master):</span2></p>
           <Zoom cascade>
           <div className="projectArea">
           <div className="projContainer">

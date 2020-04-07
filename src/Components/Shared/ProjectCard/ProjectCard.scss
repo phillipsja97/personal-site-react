@@ -1,101 +1,105 @@
   
-#projCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1em;
-  border: 1px solid white;
-  background-color: transparent;
-  margin-bottom: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
-}
+// #projCard {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   padding: 1em;
+//   border: 1px solid white;
+//   background-color: transparent;
+//   margin-bottom: 2em;
+//   margin-left: 1em;
+//   margin-right: 1em;
+//   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+//     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+// }
 
-.projectCard {
-  width: 20%;
-  margin: 1em;
-  height: 22em;
-  border: 1px solid white;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
-}
+// .projectCard {
+//   width: 20%;
+//   margin: 1em;
+//   height: 22em;
+//   border: 1px solid white;
+//   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0); 
+//     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -2px -15px 7px -5px rgba(0,161,241,0);
+// }
 
-.projTechUsed {
-  color: yellow;
-}
+// .projTechUsed {
+//   color: yellow;
+// }
 
-.githubImage {
-  height: 3em;
-  width: 3em;
-}
+// .githubImage {
+//   height: 3em;
+//   width: 3em;
+// }
 
-.projText {
-  color: white;
-  padding-top: 1em;
-}
+// .projText {
+//   color: white;
+//   padding-top: 1em;
+// }
 
-#projImage {
-  height: 20em;
-  width: 20em;
-}
+// #projImage {
+//   height: 20em;
+//   width: 20em;
+// }
 
 
-#cardTitle {
-  justify-content: center;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  color: yellow;
-  font-weight: 600;
-  font-size: 30px;
-}
+// #cardTitle {
+//   justify-content: center;
+//   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+//   color: yellow;
+//   font-weight: 600;
+//   font-size: 30px;
+// }
 
-.screenshotOverlay {
-  opacity: 0.2;
-  height: 22em;
-}
+// .screenshotOverlay {
+//   opacity: 0.2;
+//   height: 22em;
+// }
 
-.cardInfo {
-  justify-content: center;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 15px;
-  color: black;
-}
+// .cardPhoto {
+  
+// }
 
-#techNames {
-  color: rgb(19, 228, 228);
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-weight: 100;
-}
+// .cardInfo {
+//   justify-content: center;
+//   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+//   font-size: 15px;
+//   color: black;
+// }
 
-span2 {
-  color: rgb(235, 100, 235);
-  font-weight: bold;
-}
+// #techNames {
+//   color: rgb(19, 228, 228);
+//   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+//   font-weight: 100;
+// }
 
-span3 {
-  color: yellow;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: underline;
-}
+// span2 {
+//   color: rgb(235, 100, 235);
+//   font-weight: bold;
+// }
 
-.webIcon {
-  opacity: 0.5;
-  height: 3em;
-  width: 3em;
-}
+// span3 {
+//   color: yellow;
+//   font-weight: bold;
+//   font-style: italic;
+//   text-decoration: underline;
+// }
 
-.webIcon:hover {
-  opacity: 1;
-}
+// .webIcon {
+//   opacity: 0.5;
+//   height: 3em;
+//   width: 3em;
+// }
 
-.githubIcon {
-  opacity: 0.5;
-  height: 3em;
-  width: 3em;
-}
+// .webIcon:hover {
+//   opacity: 1;
+// }
 
-.githubIcon:hover {
-  opacity: 1;
-}
+// .githubIcon {
+//   opacity: 0.5;
+//   height: 3em;
+//   width: 3em;
+// }
+
+// .githubIcon:hover {
+//   opacity: 1;
+// }
