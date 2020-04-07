@@ -11,7 +11,7 @@ class AboutTablet extends React.Component {
       </div>
       <div id="aboutMeMobile">
         <div className="titleMobile">
-          <p>jamiephillips<span className="spanMobile">~/about-me/</span><span2> (master):</span2></p>
+          <p>jamiephillips<span className="spanMobile">~/about-me/</span><span2 className="span2Mobile"> (master):</span2></p>
         </div>
       <Zoom cascade>
         <div className="aboutMeDetails d-flex justify-content-center">

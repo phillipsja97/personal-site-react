@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-import React from 'react';
-import MediaQuery from 'react-responsive';
+import React, { Fragment } from 'react';
+import Media from 'react-media';
 import Zoom from 'react-reveal/Zoom';
 import Background from '../HomePage/HomePage';
 import projectData from '../../../Helpers/data/projectData';
@@ -16,8 +16,19 @@ class Projects extends React.Component {
     const { projects } = this.props;
     return (
       <React.Fragment className="fluid-container">
-        <div className="container-fluid" id="projSection">
-            <p className="projTitle"> jamiephillips<span> ~/projects-I-built/</span><span2> (master):</span2></p>
+        <Media queries={{
+          small: '(min-width: 320px) and (max-width: 767px)',
+          medium: '(min-width: 768px) and (max-width: 1024px)',
+          large: '(min-width: 1023px)',
+        }}>
+          {(matches) => (
+            <Fragment>
+              {matches.small && <p className="techTitleMob"> jamiephillips<span className="spanMobile"> ~/projects-I-built/</span><span2 className="span2Mobile"> (master):</span2></p>}
+              {matches.medium && <p className="techTitleTab"> jamiephillips<span className="spanTablet"> ~/projects-I-built/</span><span2 className="span2Tablet"> (master):</span2></p>}
+              {matches.large && <p className="techTitle"> jamiephillips<span className="spanDesk"> ~/projects-I-built/</span><span2> (master):</span2></p>}
+            </Fragment>
+          )}
+        </Media>
           <Zoom cascade>
           <div className="projectArea">
           <div className="projContainer">
@@ -25,7 +36,6 @@ class Projects extends React.Component {
            </div>
           </div>
          </Zoom>
-        </div>
       </React.Fragment>
     );
   }
