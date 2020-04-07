@@ -19,10 +19,12 @@ const useStyles = makeStyles(() => ({
     overflow: 'initial',
     maxWidth: 304,
     margin: '2em',
+    backgroundColor: 'rgba(19, 228, 228, .3)',
+    boxShadow: '0 3px 5px 2px black',
   },
   title: {
     marginBottom: 0,
-    color: 'white',
+    color: 'rgb(19, 228, 228)',
   },
   content: {
     position: 'relative',
@@ -33,11 +35,11 @@ const useStyles = makeStyles(() => ({
   },
   subHeading: {
     marginTop: 8,
-    color: 'white',
+    color: 'rgb(19, 228, 228)',
     alignItems: 'center',
   },
   text: {
-    color: 'rgb(19, 228, 228)',
+    color: 'white',
   },
 }));
 
@@ -80,10 +82,10 @@ const ProjCard = (props) => {
             className={gutterStyles.parent}
           >
             <IconButton aria-label="github" onClick={() => window.open(props.project.githubUrl)}>
-              <GitHubIcon fontSize="large" style={ { fill: 'white' } }/>
+              <GitHubIcon fontSize="large" style={ { fill: 'rgb(19, 228, 228)' } }/>
             </IconButton>
            <IconButton aria-label="hostedUrl" onClick={() => window.open(props.project.url)}>
-              <LanguageIcon fontSize="large" style={ { fill: 'white' } }/>
+              <LanguageIcon fontSize="large" style={ { fill: 'rgb(19, 228, 228)' } }/>
            </IconButton>
           </Box>
         </Box>
