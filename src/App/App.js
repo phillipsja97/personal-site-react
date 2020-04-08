@@ -53,7 +53,7 @@ class App extends React.Component {
         <Router>
               <NavBar />
                 <Switch>
-                  <Route path="/about" exact component={About} />
+                  <Route path="/" exact component={About} />
                   <Route path="/technologies" render={(props) => (<Technologies {...props} technologies={this.state.technologies}/>)}/>
                   <Route path="/projects" render={(props) => (<Projects {...props} projects={this.state.projects}/>)}/>
                   <Route path="/contact" exact component={Contact} />
