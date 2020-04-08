@@ -2,8 +2,6 @@
 import React, { Fragment } from 'react';
 import Media from 'react-media';
 import Zoom from 'react-reveal/Zoom';
-import Background from '../HomePage/HomePage';
-import projectData from '../../../Helpers/data/projectData';
 import ProjectCard from '../../Shared/ProjectCard/ProjectCard';
 import './Projects.scss';
 

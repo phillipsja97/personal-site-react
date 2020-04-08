@@ -1,5 +1,59 @@
 // About Me Desktop Section
 
+.about {
+  background-color: #343a40;
+  height: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.aboutTitle {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  padding: 2%;
+  height: 10%;
+  color: rgb(19, 228, 228);
+}
+
+.aboutTitleTab {
+font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+font-size: 16px;
+padding: 2%;
+color: rgb(19, 228, 228);
+margin-top: 5em;
+}
+
+.spanDesk {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    color: #ffff00;
+}
+
+.spanTablet {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  color: #ffff00;
+}
+
+.techTitleTab {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  color: rgb(235, 100, 235);
+}
+
+.span2Mobile {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: rgb(235, 100, 235);
+}
+
+.aboutTitleMob {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  padding: 2%;
+  color: rgb(19, 228, 228);
+}
+
 #aboutMe {
   display: block !important;
   height: 100vh;

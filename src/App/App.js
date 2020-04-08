@@ -5,7 +5,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import HomePage from '../Components/Pages/HomePage/HomePage';
 import About from '../Components/Pages/About/About';
 import NavBar from '../Components/Shared/NavBar/NavBar';
 import Technologies from '../Components/Pages/Technologies/Technologies';
@@ -20,10 +19,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 firebaseConnection();
 
-// const PublicRoute = ({ component: Component, authed, ...rest }) => {
-//   const routeChecker = (props) => (authed === false ? <Component {...props} {...rest}/> : <Redirect to={{ pathname: '/', state: { from: props.location } }} />);
-//   return <Route {...rest} render={(props) => routeChecker(props)} />;
-// };
 
 class App extends React.Component {
   state = {
@@ -58,7 +53,6 @@ class App extends React.Component {
         <Router>
               <NavBar />
                 <Switch>
-                  <Route path="/" exact component={HomePage} />
                   <Route path="/about" exact component={About} />
                   <Route path="/technologies" render={(props) => (<Technologies {...props} technologies={this.state.technologies}/>)}/>
                   <Route path="/projects" render={(props) => (<Projects {...props} projects={this.state.projects}/>)}/>

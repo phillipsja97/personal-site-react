@@ -12,11 +12,7 @@ import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
-import SendIcon from '@material-ui/icons/Send';
 import Zoom from 'react-reveal/Zoom';
-import { useGradientBtnStyles } from '@mui-treasury/styles/button/gradient';
-import { usePushingGutterStyles } from '@mui-treasury/styles/gutter/pushing';
 import { useFadedShadowStyles } from '@mui-treasury/styles/shadow/faded';
 import { useGutterBorderedGridStyles } from '@mui-treasury/styles/grid/gutterBordered';
 import './Contact.scss';
@@ -32,7 +28,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: 12,
     minWidth: 256,
     textAlign: 'center',
-    backgroundColor: 'rgba(19, 228, 228, .3)',
+    backgroundColor: '#9e9e9e',
   },
   avatar: {
     width: 60,
@@ -136,42 +132,3 @@ const ProfileCard = () => {
 
 
 export default ProfileCard;
-
-// import React from 'react';
-// import MediaQuery from 'react-responsive';
-// import FadeIn from 'react-reveal/Fade';
-// import { Button } from 'react-bootstrap';
-// import { IconContext } from 'react-icons';
-// import { FaGithub, FaLinkedin } from 'react-icons/fa';
-// import './Contact.scss';
-
-// class Contact extends React.Component {
-//   render() {
-//     return (
-//       <React.Fragment className="fluid-container">
-//         <div className="contactIcons">
-//           <h1 class="title">jamiephillips <span>/contact-me/</span><span2> (master):</span2></h1>
-//         <FadeIn>
-//             <div className="box">
-//               <div class="contactContainer">
-//                 <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'githubContact' }}>
-//                   <div>
-//                     <a href='https://github.com/phillipsja97'><FaGithub /></a>
-//                   </div>
-//                 </IconContext.Provider>
-//                 <Button variant="outline-light" href="mailto:phillipsja97@gmail.com?subject=Hi!">Say Hello</Button>
-//                 <IconContext.Provider value={{ color: 'rgb(19, 228, 228)', className: 'linkedInContact' }}>
-//                   <div>
-//                     <a href='https://www.linkedin.com/in/jamieaphillips/'><FaLinkedin /></a>
-//                   </div>
-//                 </IconContext.Provider>
-//               </div>
-//             </div>
-//         </FadeIn>
-//         </div>
-//     </React.Fragment>
-//     );
-//   }
-// }
-
-// export default Contact;
